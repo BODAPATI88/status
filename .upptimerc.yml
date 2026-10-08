@@ -26,3 +26,4 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 # Configuration reference: https://upptime.js.org/docs/configuration
+# Secret required: GH_PAT (fine-grained, this repo only). Rolling it: bvrinfra docs/runbooks/dns-terraform.md
