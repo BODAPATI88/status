@@ -1,7 +1,7 @@
 owner: BODAPATI88
 repo: status
 
-# Checked every 5 minutes by GitHub Actions. A failure opens an issue in this
+# Scheduled every 5 minutes; GitHub runs it every few hours. A failure opens an issue in this
 # repo (GitHub emails the owner); recovery closes it.
 sites:
   - name: bvrinfra.in
@@ -16,7 +16,7 @@ status-website:
   logoUrl: https://bvrinfra.in/favicon.svg
   name: bvrinfra status
   introTitle: "Is bvrinfra.in up?"
-  introMessage: Checked every five minutes from GitHub Actions. Incidents open automatically as issues in [the status repository](https://github.com/BODAPATI88/status). This monitor runs on no server of mine, so it keeps working when my homelab doesn't.
+  introMessage: Scheduled every five minutes from GitHub Actions; GitHub runs it every few hours in practice. Incidents open automatically as issues in [the status repository](https://github.com/BODAPATI88/status). This monitor runs on no server of mine, so it keeps working when my homelab doesn't.
   navbar:
     - title: Status
       href: /
